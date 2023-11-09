@@ -1,0 +1,80 @@
+repo_name: ktreharrison/reviewing-a-pull-request
+report_id: d026c74a3b01fd63a421173543ed695d
+repo_type: Public
+timestamp: '2023-11-09T13:17:55+00:00'
+requested_by: ktreharrison
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: githubteacher
+  last_updated_on: 2017-07-08 14:51:39.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2017-07-08 14:51:39.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.14.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: githubteacher
+  last_updated_on: 2017-07-08 14:51:39.000000000 Z
+- name: test-unit
+  description: Test-unit
+  package_url: https://rubygems.org/test-unit
+  version: 3.2.8
+  license: Ruby,Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18844/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: githubteacher
+  last_updated_on: 2017-07-08 14:51:39.000000000 Z
